@@ -11,7 +11,7 @@
         },
         {
             "name": "MISSAV2",
-            "api": "https://ghp.ci/https://raw.githubusercontent.com/FreshStudyer/UZI/refs/heads/main/miss2.js",
+            "api": "https://ghp.ci/https://raw.githubusercontent.com/FreshStudyer/UZI/refs/heads/main/miss.js",
             "instance": "missav20240627",
             "webSite": "https://missav.com",
             "remark": "",
