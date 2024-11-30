@@ -12,8 +12,8 @@
         {
             "name": "MISSAV",
             "api": "https://ghp.ci/https://raw.githubusercontent.com/FreshStudyer/UZI/refs/heads/main/miss.js",
-            "instance": "missav20240627",
-            "webSite": "https://missav.com/dm10/cn",
+            "instance": "missav20241130",
+            "webSite": "https://missav.com",
             "remark": "",
             "version": "2",
             "type": 100
