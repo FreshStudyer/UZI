@@ -11,7 +11,7 @@ class missavClass extends WebApiBase {
      */
     constructor() {
         super();
-        this.url = 'https://missav.com/dm10/cn'
+        this.url = 'https://missav.com'
         this.headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
         }
