@@ -13,7 +13,7 @@ class missavClass extends WebApiBase {
         super();
         this.url = 'https://missav.com'
         this.headers = {
-            'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148',
+            'User-Agent': ''PostmanRuntime/7.39.0'',
         }
     }
 
