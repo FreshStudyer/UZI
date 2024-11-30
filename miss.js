@@ -13,7 +13,7 @@ class missavClass extends WebApiBase {
         super();
         this.url = 'https://missav.com'
         this.headers = {
-            'User-Agent': 'PostmanRuntime/7.39.0',
+            'User-Agent': Mozilla/5.0 (iPhone; CPU iPhone OS 17_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148,
         }
     }
 
@@ -28,7 +28,7 @@ class missavClass extends WebApiBase {
         this.webSite = this.removeTrailingSlash(webUrl)
         let backData = new RepVideoClassList()
         try {
-            const pro = await req(webUrl + '/dm35', { headers: this.headers })
+            const pro = await req(webUrl + '/dm10/cn', { headers: this.headers })
             backData.error = pro.error
             let proData = pro.data
             if (proData) {
@@ -156,7 +156,7 @@ class missavClass extends WebApiBase {
         let backData = new RepVideoPlayUrl()
         let url = args.url
         let m3u8Prefix = 'https://surrit.com/'
-        let m3u8Suffix = '/720p/video.m3u8'
+        let m3u8Suffix = '/playlist.m3u8'
         try {
             let html = await req(url, { headers: this.headers })
             backData.error = html.error
