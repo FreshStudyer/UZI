@@ -11,7 +11,7 @@
         },
         {
             "name": "MISSAV",
-            "api": "https://raw.githubusercontent.com/FreshStudyer/UZI/refs/heads/main/miss.js?token=GHSAT0AAAAAAC3HGQCDRVF6LPDZHQLIRZ7QZ2KUMXQ",
+            "api": "https://www.ghproxy.cn/https://raw.githubusercontent.com/FreshStudyer/UZI/refs/heads/main/miss.js",
             "instance": "missav20240627",
             "webSite": "https://missav.com",
             "remark": "",
