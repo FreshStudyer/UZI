@@ -156,7 +156,7 @@ class missavClass extends WebApiBase {
         let backData = new RepVideoPlayUrl()
         let url = args.url
         let m3u8Prefix = 'https://surrit.com/'
-        let m3u8Suffix = '/playlist.m3u8'
+        let m3u8Suffix = '/720p/video.m3u8'
         try {
             let html = await req(url, { headers: this.headers })
             backData.error = html.error
