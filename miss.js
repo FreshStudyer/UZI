@@ -28,7 +28,7 @@ class missavClass extends WebApiBase {
         this.webSite = this.removeTrailingSlash(webUrl)
         let backData = new RepVideoClassList()
         try {
-            const pro = await req(webUrl + '/dm24', { headers: this.headers })
+            const pro = await req(webUrl + '/dm35', { headers: this.headers })
             backData.error = pro.error
             let proData = pro.data
             if (proData) {
